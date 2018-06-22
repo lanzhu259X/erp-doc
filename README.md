@@ -1,5 +1,7 @@
 # ERP-介绍
 
+### 系统功能简介
+
 ERP 系统是一个进销存系统，管理公司商品进销存方面的基础功能，为公司提供：采购、销售、库存、护理、档案管理等功能。如下图：
 
 [![demo-image](./image/erp-function.png)]()
@@ -47,3 +49,12 @@ ERP 系统是一个进销存系统，管理公司商品进销存方面的基础�
 - 报表
 
 > 提供各种报表，提供商品溯源信息等报表功能。
+
+### 系统架构简介
+
+ERP 系统做前后端代码分离，同时，也提供手机端 APP、H5 的项目。前端使用的技术为 VUE+IVIEW，后端使用 SpringBoot+mybatis+mysql, 缓存使用 redis, 队列
+使用的是 RabbiteMQ。
+
+系统架构图如下：
+
+[![demo-image](./image/erp-architecture.png)]()
