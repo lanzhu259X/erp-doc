@@ -1,9 +1,34 @@
 {
+  "title": "ERP-GITBOOK",
+  "description": "介绍ERP系统结构和操作文档信息",
+  "author": "Li Liang",
+  "language": "zh-hans",
+  "gitbook": "3.2.3",
+  "root": ".",
   "styles": {
     "website": "website.css",
     "ebook": "ebook.css",
     "pdf": "pdf.css",
     "mobi": "mobi.css",
     "epub": "epub.css"
+  },
+  "plugins": [
+    "expandable-chapters-small",
+    "splitter",
+    "alerts",
+    "github",
+    "expandable-chapters-small",
+    "etoc"
+  ],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/alexdingcn/newyb"
+    },
+    "etoc": {
+      "h2lb": 3,
+      "mindepth": 2,
+      "maxdepth": 4,
+      "notoc": false
+    }
   }
 }
